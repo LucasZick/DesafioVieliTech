@@ -24,7 +24,7 @@ def GiveString():
         
         else:
             saudacao = 'VAI DORMIR QUE TÁ TARDE!'
-
+        print(f'api consumida às {horario}')
         return (saudacao)
     except Exception as error:
         return (f'erro: {error}')
