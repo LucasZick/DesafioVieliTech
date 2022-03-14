@@ -6,6 +6,6 @@ projeto VileiTech
 
 - Criar uma API em Python no endpoint /saudacao que retorna o texto: bom dia, boa tarde ou boa noite conforme a hora do dia. (pronto)
 
-- Criar uma aplicação em ReactJS que exiba esse texto centralizado na tela e que altere a cor do fundo conforme a resposta da API, sem recarregar a página.
+- Criar uma aplicação em ReactJS que exiba esse texto centralizado na tela e que altere a cor do fundo conforme a resposta da API, sem recarregar a página.(1/2)
 
 - Fazer Merge da Branch 'desenvolvimento' com 'master'
