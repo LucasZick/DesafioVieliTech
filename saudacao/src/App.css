@@ -13,6 +13,7 @@
   }
 }
 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,6 +29,16 @@
   color: #61dafb;
 }
 
+#Morning {
+  background-color: rgb(184, 116, 126);
+}
+#Afternoon {
+  background-color: rgb(238, 183, 81);
+}
+#Evening {
+  background-color: rgb(78, 78, 78);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +46,5 @@
   to {
     transform: rotate(360deg);
   }
+
 }
