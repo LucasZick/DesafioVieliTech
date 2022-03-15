@@ -1,14 +1,19 @@
 import './App.css';
 import Saudacao from './components/Saudacao';
+import GetDado from './getDado'
 
-function getColor(dado) {
-  if (dado == 'BOM DIA!'){
+function getColor() {
+  var data = GetDado()
+  if (data === 'BOM DIA!'){
+    console.log('Morning')
     return 'Morning'
   }
-  if (dado == 'BOA TARDE!'){
+  if (data === 'BOA TARDE!'){
+    console.log('Afternoon')
     return 'Afternoon'
   }
-  if (dado == 'BOM DIA!'){
+  if (data === 'BOA NOITE!'){
+    console.log('Evening')
     return 'Evening'
   }
   else{
