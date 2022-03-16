@@ -8,4 +8,4 @@ projeto VileiTech
 
 - Criar uma aplicação em ReactJS que exiba esse texto centralizado na tela e que altere a cor do fundo conforme a resposta da API, sem recarregar a página.(pronto)
 
-- Fazer Merge da Branch 'desenvolvimento' com 'master'
+- Fazer Merge da Branch 'desenvolvimento' com 'master'(pornto)
