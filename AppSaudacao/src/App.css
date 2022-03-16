@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  transition: 1s;
+}
+
+#Morning {
+  background-color: rgb(184, 116, 126);
+}
+#Afternoon {
+  background-color: rgb(238, 183, 81);
+}
+#Evening {
+  background-color: rgb(78, 78, 78);
+}
+#LateNight {
+  background-color: rgb(15, 15, 68);
+}

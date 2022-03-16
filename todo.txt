@@ -1,0 +1,11 @@
+projeto VileiTech
+
+- Criar repositório o GitHub (pronto)
+
+- Criar Branch 'desenvolvimento' (pronto)
+
+- Criar uma API em Python no endpoint /saudacao que retorna o texto: bom dia, boa tarde ou boa noite conforme a hora do dia. (pronto)
+
+- Criar uma aplicação em ReactJS que exiba esse texto centralizado na tela e que altere a cor do fundo conforme a resposta da API, sem recarregar a página.(pronto)
+
+- Fazer Merge da Branch 'desenvolvimento' com 'master'
