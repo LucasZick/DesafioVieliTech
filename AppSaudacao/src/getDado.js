@@ -9,7 +9,7 @@ function GetDado() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    axios.get(`http://${ip}:5000/saudacao`)
+    axios.get(`http://${ip}:8000/saudacao`)
     .then(function (response) {
       setDado(response.data);
 
@@ -19,7 +19,7 @@ function GetDado() {
     })
   },[count])
   setInterval( () => setCount(count + 1) , 30000);
-
+  console.log(dado)
   return (dado)
 }
 

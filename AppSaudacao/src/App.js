@@ -17,6 +17,7 @@ function getColor() {
     return 'Evening'
   }
   else{
+    console.log('Erro!')
     return 'LateNight'
   }
 }

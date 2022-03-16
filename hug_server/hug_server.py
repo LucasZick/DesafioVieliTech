@@ -1,15 +1,17 @@
-from flask import Flask
+"""FIRST HUG API"""
+import hug
 
-from flask_cors import CORS
+from hug_middleware_cors import CORSMiddleware
 
 from datetime import datetime
 
+api = hug.API()
+api.http.add_middleware(CORSMiddleware(api))
 
-app = Flask(__name__)
-CORS(app)
-
-@app.route("/saudacao", methods=["GET"])
-def GiveString():
+@hug.get("/saudacao")
+def Saudacao(response=None):
+    """RETURN A STRING CONTAINING THE CORRECT GREETING ACCORDING TO THE HOUR"""
+    response and response.set_header('Access-Control-Allow-Origin', '*')
     try:
         time = datetime.now()
         horario = time.strftime('%H:%M')
@@ -28,6 +30,3 @@ def GiveString():
         return (saudacao)
     except Exception as error:
         return (f'erro: {error}')
-
-
-app.run()
